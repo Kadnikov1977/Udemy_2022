@@ -8,7 +8,7 @@
 # car1_color = "red"
 # print(car1_vendor, car1_model, car1_color, car1_year, car1_numder_of_door, sep='\n')
 
-# ===========================================================
+# ==============================================================
 year1 = 23
 year2 = 32
 year3 = 56
