@@ -28,14 +28,21 @@
 # print(e)
 
 #================================================================
+# map
+# def is_ogg(x):
+#     if x % 2 == 0:
+#         return 0
+#     else:
+#         return 1
+#
+# list1 = range(1, 100)
+#
+# print(list(map(is_ogg, list1)))
 
-def is_ogg(x):
-    if x % 2 == 0:
-        return 0
-    else:
-        return 1
+#=============================================================
+
 
 list1 = range(1, 100)
 
-print(list(map(is_ogg, list1)))
+print(list(map(lambda x: x ** 3, list1)))
 
