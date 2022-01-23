@@ -2,7 +2,7 @@ import requests
 
 url = 'https://earthquake.usgs.gov/fdsnws/event/1/query?'
 
-resp = requests.get(url, headers={'Accept':'application/json'}, params={
+resp = requests.get(url, headers={'Accept': 'application/json'}, params={
     'format': 'geojson',
     'starttime': '1980-01-01',
     'endtime': '2022-01-15',
